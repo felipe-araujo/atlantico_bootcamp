@@ -3,19 +3,19 @@ import numpy as np
 
 
 def load_red_roses():
-    return plt.imread("imgs//red_roses.png")
+    return plt.imread("./imgs/red_roses.png")
 
 def load_page_image():
     return plt.imread("imgs//page.jpg")
 
 def load_chess_image():
-    return plt.imread("../imgs/chess_gray.png")
+    return plt.imread("./imgs/chess_gray.png")
 
 def load_woman():
     return plt.imread("imgs//woman.png")
 
 def load_flipped_seville():
-    return plt.imread("imgs//flipped_seville.png")
+    return plt.imread("./imgs/flipped_seville.png")
 
 def load_lena():
     return plt.imread("imgs//lena.png")
